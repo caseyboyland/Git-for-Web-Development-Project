@@ -1,0 +1,93 @@
+Codepen HTML+CSS practice:   https://codepen.io/caseyboyland/pen/gOabLJm
+
+Codepen Questions
+1. What is Semantic HTML? 
+HTML that has meaning and organization. 
+    2. What is HTML used for? 
+The building blocks and structure of the website
+    3. What is an attribute and where do we put it? 
+A specific tag that identifies an element. We put them at the beginning and end of each element respectively. 
+    4. What is the h1 tag used for? How many times should I use it on a page? 
+It is used to identify the Main Header of a webpage, we should only use it once. 
+    5. Name two tags that have required attributes
+anchor <a> , ID <id>
+    6. What do we put in the head of our HTML document? 
+<header> <h1> <nav> possibly.
+    7. What is an id? 
+It creates a unique tag for a particular element.
+    8. What elements can I add an id to? 
+Any
+    9. How many times can I use the same id on a page? 
+Once
+    10. What is a class? 
+A way to identify a specific grouping of elements
+    11. What elements can I add a class to? 
+Any
+    12. How many times can I use the same class on a page? 
+As many as you want, as long as you are ok with making the same changes to each of those classes in CSS.
+    13. How do I get my link to open in a new tab?
+By putting an 'href' 
+    14. What is the alt attribute in the image tag used for? 
+To display an alternate text for an image
+    15. How do I reference an id?
+You put a # followed by the specific name for the ID.
+    16. What is the difference between a section and a div
+A section gives meaning to your HTML and provides context that you are housing specfic information in order. A div is used to separate the code on the page. 
+    17. What is CSS used for? 
+Styling your code.
+    18. How to we select an element? Example - every h2 on the page
+Put h2{Fill the blank with your styling} into CSS.
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+A class is used for a general grouping and an ID is for a very specific element. You would you a class for styling a group of links, you would use and ID to call attention to a very specific place on the page.
+    20. How do we select classes in CSS?
+Put .classname{Fill the blank with your styling} into CSS.
+    21. How do we select a p element with a single class of “human””?
+.human p{}.
+    22. What is a parent child selector? When would this be useful? 
+It is used to select all the branches of inheritance in a section of code. It would be use full when you want all elements in a section to have the same styling.
+    23. How do you select all links within a div with the class of sidebar?
+a .sidebar{}
+    24. What is a pseudo selector?
+A selector that is used when you have a set amount of elements but you want to style them differently. 
+    25. What do we use the change the spacing between lines?
+Margins
+    26. What do we use to change the spacing between letters?
+letter-spacing
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+You can edit the text in HTML or use a font-varient.
+    28. How do I add a 1px border around my div that is dotted and black?
+border: 1px: dotted black;
+    29. How do I select everything on the page? 
+*
+    30. How do I write a comment in CSS?
+Command + ?
+    31. How do I find out what file I am in, when I am using the command line? 
+pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+cd filename
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+rm filename, you will permanently delete this file with no chance to get it back. 
+    34. Why should I use version control? 
+So that many members of a team can work on the same piece of code and no one interferes with the other. 
+    35. How often should I commit to github?
+Whenever you just coded something important. 
+    36. What is the command we would use to push our repo up to github? 
+git push -u origin Firstname-lastname
+    37. Walk me through Lambda's git flow. 
+Go to the project repository
+Make sure you signed in to GitHub
+Press the “Fork” button. It’s near the top of the repository to the right
+Add your TLs as a collaborator. Go to Settings -> Manage Access and click “Invite Collaborator”. You can look up your TLs by their GitHub handles
+Double check that you forked correctly. The Repo should say <yourGitHubHandle>/<projectName> near the top. Then click the green “Clone or Download” button and copy the url. 
+Open up the terminal (Mac) or GitBash (PC) on your machine. 
+Enter the command `git clone <url>` with the url you copied. There is now a local copy of the codebase on your machine. You may enter `ls` and should see the listed. 
+Open that folder in your text editor of choice. 
+Checkout a new branch using `git checkout -b <firstname-lastname>`
+Complete the assignment, adding and committing as needed.
+Push your changes to the remote copy using `git push -u origin <firstname-firatname>`
+Click “New pull request” or the green “Compare & Pull request” button.
+Make sure the base repository is “<yourGitHubHandle>/<projectName>” NOT “LambdaSchool/<projectName>”
+Add your TLs as reviewers.
+Submit the request
+
+Project 1
